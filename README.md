@@ -1,6 +1,6 @@
 # recipe_apps
 
-Nama : Rizky Adi Ryanto
+Nama : Rizky Adi Ryanto <br>
 Univ : Universitas Teknologi Sumbawa
 
 Tugas Dari KMMI Flutter di UNILA untuk membuat model class api dengan menggunakan
