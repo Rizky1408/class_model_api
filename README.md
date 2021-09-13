@@ -9,8 +9,6 @@ Tugas Dari KMMI Flutter di UNILA untuk membuat model class api dengan menggunaka
 
 Dan mungkin akan terus saya lanjutkan, mohon untuk di pantau terus
 
-A new Flutter project.
-
 ## Getting Started
 
 This project is a starting point for a Flutter application.
