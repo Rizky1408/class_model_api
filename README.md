@@ -9,6 +9,11 @@ Tugas Dari KMMI Flutter di UNILA untuk membuat model class api dengan menggunaka
 
 Dan mungkin akan terus saya lanjutkan, mohon untuk di pantau terus
 
+#update sudah bisa untuk melakukan searching dari api
+<br>
+<img src="https://github.com/Rizky1408/class_model_api/blob/main/demoClassModel.png" width="450">
+<img src="https://github.com/Rizky1408/class_model_api/blob/main/DemoClassModel2.png" width="450">
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
