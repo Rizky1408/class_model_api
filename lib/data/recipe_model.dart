@@ -11,16 +11,6 @@ class RecipeModel {
     required this.links,
   });
 
-  RecipeModel copyWith({
-    Recipe? recipe,
-    Links? links,
-  }) {
-    return RecipeModel(
-      recipe: recipe ?? this.recipe,
-      links: links ?? this.links,
-    );
-  }
-
   Map<String, dynamic> toMap() {
     return {
       'recipe': recipe.toMap(),
@@ -40,18 +30,9 @@ class RecipeModel {
   factory RecipeModel.fromJson(String source) =>
       RecipeModel.fromMap(json.decode(source));
 
-  @override
-  String toString() => 'RecipeModel(recipe: $recipe, links: $links)';
-
-  @override
-  bool operator ==(Object other) {
-    if (identical(this, other)) return true;
-
-    return other is RecipeModel &&
-        other.recipe == recipe &&
-        other.links == links;
+  static List<RecipeModel> fromListDynamic(List<dynamic> datas) {
+    // ignore: unnecessary_null_comparison
+    if (datas == null) return [];
+    return datas.map<RecipeModel>((e) => RecipeModel.fromMap(e)).toList();
   }
-
-  @override
-  int get hashCode => recipe.hashCode ^ links.hashCode;
 }
